@@ -1,0 +1,54 @@
+x = zeros(1, 4); 
+params.lambda = 0; 
+params.mu = 0.05; 
+params.nu = 1.6; 
+params.scale = 1/3;
+
+order = 4; 
+params.order = order; 
+params.mfld.order = order; 
+
+[eigenvectors, eigenvalues] = getJacEigs_toMerge(0, params); 
+scaled_evec = eigenvectors.s(:,1)*params.scale;
+params.eigenvalues = eigenvalues; 
+params.eigenvectors = eigenvectors; 
+
+st_coeffs = getStBundleCoefficients(params);
+v_coeff_dp = bundle_coeff_from_st_mfld_deriv(params, 1);
+scaled_v_coeff_dp = v_coeff_dp*params.scale; 
+
+
+v_coeff_pm = reshape(st_coeffs(1,1,:,:), [order + 1, order + 1]); 
+
+
+% plot norms 
+order_vec = 0:1:params.order; 
+flat_order_vec = repmat(order_vec, 1, params.order+1);
+flat_coeffs = reshape(v_coeff_pm', 1, []); 
+coeff_norms = abs(flat_coeffs); 
+index_to_keep = find(coeff_norms); 
+x = flat_order_vec(index_to_keep)
+
+figure 
+plot(flat_order_vec, coeff_norms, 'o')
+xlabel('order')
+ylabel('norm')
+
+
+
+
+
+
+
+
+
+% assert the two sets of coefficients are the same 
+should_be_eigenvector = reshape(st_coeffs(:,1,1), [4 1]);
+assert(isequal(scaled_evec, should_be_eigenvector))
+assert(isequal(scaled_v_coeff_dp, v_coeff_pm))
+
+
+
+
+
+

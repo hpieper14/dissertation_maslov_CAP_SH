@@ -1,0 +1,672 @@
+Choice of Parameters
+       mu: 0.100000000000000
+       nu: 1.600000000000000
+        L: 11.413325000008360
+     cheb: [1×1 struct]
+     mfld: [1×1 struct]
+    scale: 0.100000000000000
+      rho: 0.999999999999995
+      tol: 1.000000000000000e-07
+Chebyshev order: 350
+Manifold order: 16
+Initial choice for phi1, phi2, psi: 0.71861, 0.69542, 2.37
+Decay in Chebyshev coefficients for first component: 10
+Refining Chebyshev coefficients via Newtons method.
+Newton iteration: 0
+----------------------------------------------
+Error at iteration 0: 4.0442
+ 
+The value of F at the current x is: 
+F1: -0.0041296
+F2: 0.086563
+F3: -0.077334
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 1.0162
+max(F5)_n: 1.028
+max(F6)_n: 0.67051
+max(F7)_n: 1.0424
+ 
+Decay in Chebyshev coefficients F7: 11
+----------------------------------------------
+Newton iteration: 1
+Newton iteration: 2
+Newton iteration: 3
+Newton iteration: 4
+Newton iteration: 5
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+13 *
+ -0.229070041726725 + 0.000000000000000i
+ -0.805972626700197 + 0.000000000000000i
+ -1.917485745044599 - 0.000000000000002i
+ -1.984209788729256 - 0.000000000000009i
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+13 *
+ -0.229070041726725 + 0.000000000000000i
+ -0.805972626700197 + 0.000000000000000i
+ -1.917485745044599 - 0.000000000000002i
+ -1.984209788729256 - 0.000000000000009i
+----------------------------------------------
+Error at iteration 5: 28837310948050
+ 
+The value of F at the current x is: 
+F1: -0.4945
+F2: -0.033099
+F3: -0.15717
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 2290700417266.171
+max(F5)_n: 8059726267003.146
+max(F6)_n: 19174857450447.71
+max(F7)_n: 19842097887291.3
+ 
+Decay in Chebyshev coefficients F7: 32
+----------------------------------------------
+Newton iteration: 6
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+12 *
+ -0.819857439245407 + 0.000000000000001i
+ -2.872293378745816 + 0.000000000000000i
+ -6.817882211964311 - 0.000000000000005i
+ -7.074335496673140 - 0.000000000000033i
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  8.761472e-30.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mpower>integerMpower', '/Applications/MATLAB_R2020b.app/toolbox/matlab/ops/mpower.m', 80)" style="font-weight:bold">mpower>integerMpower</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2020b.app/toolbox/matlab/ops/mpower.m',80,0)">line 80</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mpower', '/Applications/MATLAB_R2020b.app/toolbox/matlab/ops/mpower.m', 49)" style="font-weight:bold"> ^ </a> (<a href="matlab: opentoline('/Applications/MATLAB_R2020b.app/toolbox/matlab/ops/mpower.m',49,0)">line 49</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('refine_cheb_orbit', '/Users/hannahpieper/MATLAB/SH-copy/Methods/validateHomOrbit/refine_cheb_orbit.m', 43)" style="font-weight:bold">refine_cheb_orbit</a> (<a href="matlab: opentoline('/Users/hannahpieper/MATLAB/SH-copy/Methods/validateHomOrbit/refine_cheb_orbit.m',43,0)">line 43</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('chebyshev_exploration', '/Users/hannahpieper/MATLAB/SH-copy/chebyshev_exploration.m', 59)" style="font-weight:bold">chebyshev_exploration</a> (<a href="matlab: opentoline('/Users/hannahpieper/MATLAB/SH-copy/chebyshev_exploration.m',59,0)">line 59</a>)
+] 
+Newton iteration: 7
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+12 *
+ -0.294783885687820 + 0.000000000000000i
+ -1.024554232063554 + 0.000000000000000i
+ -2.416137757186475 - 0.000000000000002i
+ -2.481085000473349 - 0.000000000000011i
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  2.076873e-29.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mpower>integerMpower', '/Applications/MATLAB_R2020b.app/toolbox/matlab/ops/mpower.m', 80)" style="font-weight:bold">mpower>integerMpower</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2020b.app/toolbox/matlab/ops/mpower.m',80,0)">line 80</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mpower', '/Applications/MATLAB_R2020b.app/toolbox/matlab/ops/mpower.m', 49)" style="font-weight:bold"> ^ </a> (<a href="matlab: opentoline('/Applications/MATLAB_R2020b.app/toolbox/matlab/ops/mpower.m',49,0)">line 49</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('refine_cheb_orbit', '/Users/hannahpieper/MATLAB/SH-copy/Methods/validateHomOrbit/refine_cheb_orbit.m', 43)" style="font-weight:bold">refine_cheb_orbit</a> (<a href="matlab: opentoline('/Users/hannahpieper/MATLAB/SH-copy/Methods/validateHomOrbit/refine_cheb_orbit.m',43,0)">line 43</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('chebyshev_exploration', '/Users/hannahpieper/MATLAB/SH-copy/chebyshev_exploration.m', 59)" style="font-weight:bold">chebyshev_exploration</a> (<a href="matlab: opentoline('/Users/hannahpieper/MATLAB/SH-copy/chebyshev_exploration.m',59,0)">line 59</a>)
+] 
+Newton iteration: 8
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+11 *
+ -1.069294175610588 + 0.000000000000001i
+ -3.662205061977513 + 0.000000000000000i
+ -8.511648168568652 - 0.000000000000007i
+ -8.428429004918126 - 0.000000000000043i
+if system_dependent('IsDebugMode')==1, dbquit; end
+epsilon = 1e-10
+epsilon =
+     1.000000000000000e-10
+test_DF_Hom(epsilon)
+<a href="matlab: opentoline('/Users/hannahpieper/MATLAB/SH-copy/Methods/Chebyshev/chebstar3.m',9,1)">9   </a>                l=k-j-i;
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_DF_Hom(epsilon)
+<a href="matlab: opentoline('/Users/hannahpieper/MATLAB/SH-copy/Methods/validateHomOrbit/test_DF_Hom.m',11,1)">11  </a>    if max(val,[],'all')>1e-4
+val
+val =
+  Columns 1 through 2
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000884379587 - 0.000000000000000i  0.000001108470512 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+ -0.000002014508877 - 0.000000000000000i -0.000002651858891 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+ -0.000000680427635 + 0.000000000000000i -0.000011985922258 - 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000013444534211 + 0.000000000000000i  0.000009667311875 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  Columns 3 through 4
+ -0.000004330075134 + 0.000000000000000i -0.000017680828023 + 0.000000000000000i
+  0.000006510615298 - 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000051525001961 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000165480742 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i -0.097830041226189 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i -0.118173963584923 + 0.000000000000000i
+  Columns 5 through 6
+ -0.000035361656046 + 0.000000000000000i -0.000035361656046 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+ -0.000000165480742 + 0.000000000000000i  0.000000165480742 + 0.000000000000000i
+  0.000035692617530 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i -0.000070723312092 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+ -0.045414387443998 + 0.000000000000000i  0.051900175702144 + 0.000000000000000i
+  0.256417762027013 + 0.000000000000000i  0.159417802113694 + 0.000000000000000i
+  Columns 7 through 8
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+ -0.000017680828023 + 0.000000000000000i  0.000000165480742 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000019144041023 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000019144041023 + 0.000000000000000i
+  0.000000165480742 + 0.000000000000000i -0.000000165480742 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i -0.000106415929622 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  Columns 9 through 10
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000165480742 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+ -0.000019144041023 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000165480742 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000019144041023 + 0.000000000000000i
+  0.000000330961484 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000165480742 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.019856908519237 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  Columns 11 through 12
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i -0.000019144041023 + 0.000000000000000i
+ -0.000051910232553 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+ -0.000000165480742 + 0.000000000000000i  0.000000165480742 + 0.000000000000000i
+  0.000000165480742 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000330961484 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.016522879551680 + 0.000000000000000i
+ -0.052902667622597 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  Columns 13 through 14
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000017846308765 + 0.000000000000000i  0.000035692617530 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000001380472629 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000019144041023 + 0.000000000000000i
+  0.000035692617530 + 0.000000000000000i -0.000035692617530 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000888343900442 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i  0.000000000000000 + 0.000000000000000i
+  Column 15
+  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i
+  0.000035692617530 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i
+ -0.000001380472629 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i
+  0.000035692617530 + 0.000000000000000i
+  0.000000000000000 + 0.000000000000000i
+  0.001776687800884 + 0.000000000000000i
+if system_dependent('IsDebugMode')==1, dbquit; end
+glue_exp
+Optimal time of gluing:
+  11.413325000008360
+Size of gap at optimal glue location:
+   0.041764745459388
+glue_exp
+Optimal time of gluing:
+  11.413325000008360
+Size of gap at optimal glue location:
+   0.041764745459356
+chebyshev_exploration
+Choice of Parameters
+       mu: 0.100000000000000
+       nu: 1.600000000000000
+        L: 11.413325000008360
+     cheb: [1×1 struct]
+     mfld: [1×1 struct]
+    scale: 0.100000000000000
+      rho: 0.999999999999999
+      tol: 1.000000000000000e-07
+Chebyshev order: 400
+Manifold order: 16
+Initial choice for phi1, phi2, psi: 0.71861, 0.69542, 2.37
+Decay in Chebyshev coefficients for first component: 10
+Refining Chebyshev coefficients via Newtons method.
+Newton iteration: 0
+----------------------------------------------
+Error at iteration 0: 4.0444
+ 
+The value of F at the current x is: 
+F1: -0.003847
+F2: 0.086396
+F3: -0.077087
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 1.0162
+max(F5)_n: 1.028
+max(F6)_n: 0.67051
+max(F7)_n: 1.0424
+ 
+Decay in Chebyshev coefficients F7: 11
+----------------------------------------------
+Newton iteration: 1
+Newton iteration: 2
+Newton iteration: 3
+Newton iteration: 4
+Newton iteration: 5
+----------------------------------------------
+Error at iteration 5: 1.9688
+ 
+The value of F at the current x is: 
+F1: -0.30203
+F2: -0.12231
+F3: -0.00073926
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 0.13772
+max(F5)_n: 0.178
+max(F6)_n: 2.8866e-15
+max(F7)_n: 0.32833
+ 
+Decay in Chebyshev coefficients F7: 35
+----------------------------------------------
+Newton iteration: 6
+Newton iteration: 7
+Newton iteration: 8
+Newton iteration: 9
+Newton iteration: 10
+----------------------------------------------
+Error at iteration 10: 425.7442
+ 
+The value of F at the current x is: 
+F1: 0.45812
+F2: 0.11401
+F3: 0.037807
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 1.8377e-13
+max(F5)_n: 2.0783e-13
+max(F6)_n: 2.2238e-13
+max(F7)_n: 155.3038
+ 
+Decay in Chebyshev coefficients F7: 24
+----------------------------------------------
+Newton iteration: 11
+Newton iteration: 12
+Newton iteration: 13
+Newton iteration: 14
+Newton iteration: 15
+----------------------------------------------
+Error at iteration 15: 30.5539
+ 
+The value of F at the current x is: 
+F1: 1.4604
+F2: -2.8724
+F3: 3.2849
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 0.4314
+max(F5)_n: 0.219
+max(F6)_n: 2.0872e-14
+max(F7)_n: 11.932
+ 
+Decay in Chebyshev coefficients F7: 45
+----------------------------------------------
+Newton iteration: 16
+Newton iteration: 17
+Newton iteration: 18
+Newton iteration: 19
+Newton iteration: 20
+----------------------------------------------
+Error at iteration 20: 1.885
+ 
+The value of F at the current x is: 
+F1: 0.71126
+F2: -0.45696
+F3: 0.74265
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 4.885e-15
+max(F5)_n: 3.5527e-15
+max(F6)_n: 2.0539e-15
+max(F7)_n: 0.51815
+ 
+Decay in Chebyshev coefficients F7: 43
+----------------------------------------------
+Newton iteration: 21
+Newton iteration: 22
+Newton iteration: 23
+Newton iteration: 24
+Newton iteration: 25
+----------------------------------------------
+Error at iteration 25: 37879.1274
+ 
+The value of F at the current x is: 
+F1: -22.5052
+F2: -84.0339
+F3: 80.9229
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 0.00062649
+max(F5)_n: 1.8566e-11
+max(F6)_n: 1.9327e-11
+max(F7)_n: 12068.454
+ 
+Decay in Chebyshev coefficients F7: 20
+----------------------------------------------
+Newton iteration: 26
+Newton iteration: 27
+Newton iteration: 28
+Newton iteration: 29
+Newton iteration: 30
+----------------------------------------------
+Error at iteration 30: 116.1419
+ 
+The value of F at the current x is: 
+F1: -5.7595
+F2: -13.6479
+F3: 12.4429
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 0.0012507
+max(F5)_n: 0.0027903
+max(F6)_n: 0.0005813
+max(F7)_n: 22.9806
+ 
+Decay in Chebyshev coefficients F7: 33
+----------------------------------------------
+Newton iteration: 31
+Newton iteration: 32
+Newton iteration: 33
+Newton iteration: 34
+Newton iteration: 35
+----------------------------------------------
+Error at iteration 35: 3.4291
+ 
+The value of F at the current x is: 
+F1: 0.52191
+F2: 2.3439
+F3: -2.2908
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 0.00041451
+max(F5)_n: 0.00088998
+max(F6)_n: 0.00058743
+max(F7)_n: 0.21272
+ 
+Decay in Chebyshev coefficients F7: 44
+----------------------------------------------
+Newton iteration: 36
+Newton iteration: 37
+Newton iteration: 38
+Newton iteration: 39
+Newton iteration: 40
+----------------------------------------------
+Error at iteration 40: 3.1977
+ 
+The value of F at the current x is: 
+F1: -0.57743
+F2: 0.04903
+F3: -0.2743
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 0.0062856
+max(F5)_n: 0.017626
+max(F6)_n: 0.03177
+max(F7)_n: 1.3227
+ 
+Decay in Chebyshev coefficients F7: 45
+----------------------------------------------
+Newton iteration: 41
+Newton iteration: 42
+Newton iteration: 43
+Newton iteration: 44
+Newton iteration: 45
+----------------------------------------------
+Error at iteration 45: 277.4982
+ 
+The value of F at the current x is: 
+F1: 1.2822
+F2: -2.0088
+F3: 2.3662
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 18.1903
+max(F5)_n: 19.7695
+max(F6)_n: 1.5055e-13
+max(F7)_n: 20.6899
+ 
+Decay in Chebyshev coefficients F7: 37
+----------------------------------------------
+Newton iteration: 46
+Newton iteration: 47
+Newton iteration: 48
+Newton iteration: 49
+Newton iteration: 50
+----------------------------------------------
+Error at iteration 50: 4.9877
+ 
+The value of F at the current x is: 
+F1: -0.44734
+F2: 0.46349
+F3: -0.56409
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 0.19132
+max(F5)_n: 0.14481
+max(F6)_n: 2.2204e-15
+max(F7)_n: 0.59559
+ 
+Decay in Chebyshev coefficients F7: 41
+----------------------------------------------
+Newton iteration: 51
+Newton iteration: 52
+Newton iteration: 53
+Newton iteration: 54
+Newton iteration: 55
+----------------------------------------------
+Error at iteration 55: 74.2742
+ 
+The value of F at the current x is: 
+F1: -4.2742
+F2: -2.4677
+F3: 1.0279
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 7.9436e-14
+max(F5)_n: 2.1561e-13
+max(F6)_n: 0.013107
+max(F7)_n: 11.2328
+ 
+Decay in Chebyshev coefficients F7: 43
+----------------------------------------------
+Newton iteration: 56
+Newton iteration: 57
+Newton iteration: 58
+Newton iteration: 59
+Newton iteration: 60
+----------------------------------------------
+Error at iteration 60: 0.77703
+ 
+The value of F at the current x is: 
+F1: -0.50158
+F2: 0.31892
+F3: -0.49635
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 1.5543e-15
+max(F5)_n: 1.4433e-15
+max(F6)_n: 9.992e-16
+max(F7)_n: 0.030234
+ 
+Decay in Chebyshev coefficients F7: 44
+----------------------------------------------
+Newton iteration: 61
+Newton iteration: 62
+Newton iteration: 63
+Newton iteration: 64
+Newton iteration: 65
+----------------------------------------------
+Error at iteration 65: 512992.9075
+ 
+The value of F at the current x is: 
+F1: -14.9121
+F2: 152.6458
+F3: -162.4648
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 4.7271e-10
+max(F5)_n: 2.2945e-10
+max(F6)_n: 8.2184e-10
+max(F7)_n: 192982.5678
+ 
+Decay in Chebyshev coefficients F7: 17
+----------------------------------------------
+Newton iteration: 66
+Newton iteration: 67
+Newton iteration: 68
+Newton iteration: 69
+Newton iteration: 70
+----------------------------------------------
+Error at iteration 70: 1682.9841
+ 
+The value of F at the current x is: 
+F1: -9.9594
+F2: 2.647
+F3: -4.7446
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 2.1174e-12
+max(F5)_n: 4.2775e-12
+max(F6)_n: 3.4532e-12
+max(F7)_n: 398.873
+ 
+Decay in Chebyshev coefficients F7: 20
+----------------------------------------------
+Newton iteration: 71
+Newton iteration: 72
+Newton iteration: 73
+Newton iteration: 74
+Newton iteration: 75
+----------------------------------------------
+Error at iteration 75: 51.4002
+ 
+The value of F at the current x is: 
+F1: 0.12405
+F2: 1.2213
+F3: -1.2391
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 6.8345e-13
+max(F5)_n: 5.4046e-13
+max(F6)_n: 6.4837e-13
+max(F7)_n: 22.7337
+ 
+Decay in Chebyshev coefficients F7: 39
+----------------------------------------------
+Newton iteration: 76
+Newton iteration: 77
+Newton iteration: 78
+Newton iteration: 79
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+07 *
+ -0.086622639882117 - 0.000000000000000i
+ -0.106680876704205 - 0.000000000000001i
+  0.569261723607525 - 0.000000000000004i
+  4.192745057552641 - 0.000000000000009i
+Newton iteration: 80
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+07 *
+ -0.029184760800797 - 0.000000000000000i
+ -0.038172390533006 - 0.000000000000000i
+  0.197533746661866 - 0.000000000000001i
+  1.504777434902279 - 0.000000000000003i
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+07 *
+ -0.029184760800797 - 0.000000000000000i
+ -0.038172390533006 - 0.000000000000000i
+  0.197533746661866 - 0.000000000000001i
+  1.504777434902279 - 0.000000000000003i
+----------------------------------------------
+Error at iteration 80: 53551878762893.23
+ 
+The value of F at the current x is: 
+F1: -4.037
+F2: -6.7712
+F3: 4.5492
+The max elements of (F4)_n,...,(F7)_n are: 
+max(F4)_n: 337344.2988
+max(F5)_n: 379102.8553
+max(F6)_n: 5.3915e-09
+max(F7)_n: 19459693220756.86
+ 
+Decay in Chebyshev coefficients F7: 18
+----------------------------------------------
+Newton iteration: 81
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+06 *
+ -0.093290439342980 - 0.000000000000000i
+ -0.136896287630392 - 0.000000000000001i
+  0.624550916390417 - 0.000000000000005i
+  5.105312690320345 - 0.000000000000012i
+Newton iteration: 82
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+06 *
+ -0.026654317124965 - 0.000000000000000i
+ -0.049009618186456 - 0.000000000000000i
+  0.154387081976647 - 0.000000000000001i
+  1.517755603562578 - 0.000000000000004i
+Newton iteration: 83
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+05 *
+ -0.058736226381729 + 0.000000000000000i
+ -0.174320776324040 - 0.000000000000001i
+  0.095390558593418 - 0.000000000000004i
+  3.167050342302542 - 0.000000000000012i
+Newton iteration: 84
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+04 *
+  0.006957404967486 + 0.000000000000002i
+ -1.296876936078677 + 0.000000000000002i
+ -5.453725623738388 - 0.000000000000006i
+ -7.564159659613864 - 0.000000000000048i
+Newton iteration: 85
+There might be a problem with the manifold parameterization coefficients.
+Point on Manifold:
+   1.0e+06 *
+  0.022820018374166 + 0.000000000000000i
+  0.012153951776911 + 0.000000000000000i
+ -0.203467453988457 + 0.000000000000001i
+ -1.120760992633784 - 0.000000000000000i
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit all; end
+clear all
+chebyshev_exploration
