@@ -2,7 +2,7 @@
 This code is written by Hannah Pieper and accompanies the dissertation "Spectral Stability via the Maslov Index and Computer Assisted Proofs" by Hannah Pieper. 
 
 ## Subdirectories 
-[exploratory work](exploratory work): Contains scripts for exploratory work that is not included in the dissertation.
+[exploratory work](exploratory<>work): Contains scripts for exploratory work that is not included in the dissertation.
 
 [results](results): Contains scripts for the results that are included in the dissertation. 
 
